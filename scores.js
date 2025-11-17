@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     getElement("#clear_scores").addEventListener("click", () => {
         students = [];
-        getElemetn("#score_list").value = "";
+        getElement("#score_list").value = "";
         getElement("#avg").textContent = "";
         console.log("Scores cleared");
     });
